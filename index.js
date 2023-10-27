@@ -18,8 +18,16 @@
 
 // let method
 // second var method
-var x=prompt("enter your first number")
-var y=prompt("enter your second number")
-var z=Number(x)+Number(y)
-// console.log(z)
-alert(" your first number is " + x + " your second number is " + y + " your total is " + z )
+// var x=prompt("enter your first number")
+// var y=prompt("enter your second number")
+// var z=Number(x)+Number(y)
+// // console.log(z)
+// alert(" your first number is " + x + " your second number is " + y + " your total is " + z )
+
+
+// var third method
+
+var x=prompt("money customer have")
+var y=prompt("product price")
+var z=Number(x)-Number(y)
+alert(" total saving " + z)
