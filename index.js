@@ -32,9 +32,12 @@
 // var z=Number(x)-Number(y)
 // alert(" total saving " + z)
 
-var age=prompt("enter your age")
+// var age=prompt("enter your age")
+var age=16
 if(age>=18){
-    alert(`you are eligible for vote`)
+    console.log("you are eligible for vote")
+//  alert(`you are eligible for vote`)
 } else{
-alert(`you are not eligible for vote`)
+    console.log("you are not eligible for vote")
+//  alert(`you are not eligible for vote`)
 }
