@@ -27,7 +27,14 @@
 
 // var third method
 
-var x=prompt("money customer have")
-var y=prompt("product price")
-var z=Number(x)-Number(y)
-alert(" total saving " + z)
+// var x=prompt("money customer have")
+// var y=prompt("product price")
+// var z=Number(x)-Number(y)
+// alert(" total saving " + z)
+
+var age=prompt("enter your age")
+if(age>=18){
+    alert(`you are eligible for vote`)
+} else{
+alert(`you are not eligible for vote`)
+}
