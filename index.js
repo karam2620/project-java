@@ -33,11 +33,41 @@
 // alert(" total saving " + z)
 
 // var age=prompt("enter your age")
-var age=16
-if(age>=18){
-    console.log("you are eligible for vote")
-//  alert(`you are eligible for vote`)
-} else{
-    console.log("you are not eligible for vote")
-//  alert(`you are not eligible for vote`)
+// var age=16
+// if(age>=18){
+//     console.log("you are eligible for vote")
+// //  alert(`you are eligible for vote`)
+// } else{
+//     console.log("you are not eligible for vote")
+// //  alert(`you are not eligible for vote`)
+// }
+
+// var age=prompt("enter your age")
+// if (age>=21){
+//     //console.log("you can eligible for social media handle")
+//     alert("you are eligible for facebook")
+// } else{
+//     // console.log("you are not eligible")
+//     alert("you are not elgible")
+// }
+
+// var gender=prompt("select your gender")
+// if (gender=="male"){
+//     alert("you are male")
+// } else if(gender=="female"){
+//     alert("you are female")
+// } else if(gender=="others"){
+//     alert("others")
+// }
+
+var ticket=prompt("enter your amount")
+if (ticket==200){
+    alert("buy diamond ticket")
+} else if(ticket==100){
+alert("buy one gold ticket")
+} else if(ticket==250){
+    alert("ticket not available")
 }
+
+
+
